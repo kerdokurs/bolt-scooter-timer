@@ -10,12 +10,13 @@ import SwiftUI
 struct EndedView: View {
     @Binding public var state: AppState
     public var result: RideResult
+
     
     var body: some View {
         VStack {
             VStack(spacing: 2) {
                 Text("Ride finished!")
-                Text("\(result.getCurrencyString())")
+                Text("\(result.getTotalCostFormatted())")
                     .font(.title)
                     .foregroundColor(.green)
                 Text(result.getDurationString())

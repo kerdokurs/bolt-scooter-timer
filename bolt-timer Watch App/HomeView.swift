@@ -17,6 +17,10 @@ struct HomeView: View {
                 rideResult.reset()
                 state = AppState.Running
             }, color: .green, iconName: "play")
+            
+            RoundButton(callback: {
+                state = AppState.SetCost
+            }, color: .secondary, iconName: "gear")
         }
     }
 }

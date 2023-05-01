@@ -19,6 +19,8 @@ struct ContentView: View {
             RunningView(state: $state, rideResult: $rideResult)
         } else if state == AppState.Ended {
             EndedView(state: $state, result: rideResult)
+        } else if state == AppState.SetCost {
+            SetCostView(state: $state, rideResult: $rideResult)
         }
     }
 }

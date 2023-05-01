@@ -21,6 +21,7 @@
 		24C68BC12A004A9900F0C6DB /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C68BC02A004A9900F0C6DB /* AppState.swift */; };
 		24C68BC32A004B3800F0C6DB /* EndedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C68BC22A004B3800F0C6DB /* EndedView.swift */; };
 		24C68BC52A00623300F0C6DB /* RideResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C68BC42A00623300F0C6DB /* RideResult.swift */; };
+		24C68C072A006F2900F0C6DB /* SetCostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C68C062A006F2900F0C6DB /* SetCostView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		24C68BC02A004A9900F0C6DB /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		24C68BC22A004B3800F0C6DB /* EndedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndedView.swift; sourceTree = "<group>"; };
 		24C68BC42A00623300F0C6DB /* RideResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideResult.swift; sourceTree = "<group>"; };
+		24C68C062A006F2900F0C6DB /* SetCostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetCostView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 			children = (
 				24C68B8C2A0042EC00F0C6DB /* bolt_timerApp.swift */,
 				24C68B8E2A0042EC00F0C6DB /* ContentView.swift */,
+				24C68C062A006F2900F0C6DB /* SetCostView.swift */,
 				24C68BC42A00623300F0C6DB /* RideResult.swift */,
 				24C68BC22A004B3800F0C6DB /* EndedView.swift */,
 				24C68BBC2A00461F00F0C6DB /* RunningView.swift */,
@@ -332,6 +335,7 @@
 				24C68BC12A004A9900F0C6DB /* AppState.swift in Sources */,
 				24C68BBF2A0046BB00F0C6DB /* RoundButton.swift in Sources */,
 				24C68BBB2A00434700F0C6DB /* HomeView.swift in Sources */,
+				24C68C072A006F2900F0C6DB /* SetCostView.swift in Sources */,
 				24C68B8F2A0042EC00F0C6DB /* ContentView.swift in Sources */,
 				24C68BC52A00623300F0C6DB /* RideResult.swift in Sources */,
 				24C68B8D2A0042EC00F0C6DB /* bolt_timerApp.swift in Sources */,

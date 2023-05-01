@@ -20,6 +20,10 @@ class RideResult {
         totalTime = time
     }
     
+    func updateCostPerMinute(costPerMinute: Double) -> Void {
+        CostPerMinute = costPerMinute
+    }
+    
     func reset() -> Void {
         totalTime = nil
     }
@@ -33,9 +37,14 @@ class RideResult {
         return duration * (CostPerMinute / 60.0)
     }
     
-    func getCurrencyString() -> String {
+    func getTotalCostFormatted() -> String {
         return RideResult.formatCurrency(amount: getTotalCost())
     }
+    
+    func getCostPerMinuteFormatted() -> String {
+        return RideResult.formatCurrency(amount: CostPerMinute)
+    }
+
     
     func getDuration() -> DateInterval? {
         return totalTime

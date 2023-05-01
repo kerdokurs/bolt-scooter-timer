@@ -11,4 +11,5 @@ enum AppState {
     case Home
     case Running
     case Ended
+    case SetCost
 }

@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24C68B882A0042EC00F0C6DB /* bolt-timer Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 24C68B872A0042EC00F0C6DB /* bolt-timer Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		24C68B8D2A0042EC00F0C6DB /* bolt_timerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C68B8C2A0042EC00F0C6DB /* bolt_timerApp.swift */; };
+		24C68B8F2A0042EC00F0C6DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C68B8E2A0042EC00F0C6DB /* ContentView.swift */; };
+		24C68B912A0042ED00F0C6DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24C68B902A0042ED00F0C6DB /* Assets.xcassets */; };
+		24C68B942A0042ED00F0C6DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24C68B932A0042ED00F0C6DB /* Preview Assets.xcassets */; };
+		24C68B9E2A0042ED00F0C6DB /* bolt_timer_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C68B9D2A0042ED00F0C6DB /* bolt_timer_Watch_AppTests.swift */; };
+		24C68BA82A0042ED00F0C6DB /* bolt_timer_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C68BA72A0042ED00F0C6DB /* bolt_timer_Watch_AppUITests.swift */; };
+		24C68BAA2A0042ED00F0C6DB /* bolt_timer_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C68BA92A0042ED00F0C6DB /* bolt_timer_Watch_AppUITestsLaunchTests.swift */; };
+		24C68BBB2A00434700F0C6DB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C68BBA2A00434700F0C6DB /* HomeView.swift */; };
+		24C68BBD2A00461F00F0C6DB /* RunningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C68BBC2A00461F00F0C6DB /* RunningView.swift */; };
+		24C68BBF2A0046BB00F0C6DB /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C68BBE2A0046BB00F0C6DB /* RoundButton.swift */; };
+		24C68BC12A004A9900F0C6DB /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C68BC02A004A9900F0C6DB /* AppState.swift */; };
+		24C68BC32A004B3800F0C6DB /* EndedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C68BC22A004B3800F0C6DB /* EndedView.swift */; };
+		24C68BC52A00623300F0C6DB /* RideResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C68BC42A00623300F0C6DB /* RideResult.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24C68B892A0042EC00F0C6DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24C68B7B2A0042EC00F0C6DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24C68B862A0042EC00F0C6DB;
+			remoteInfo = "bolt-timer Watch App";
+		};
+		24C68B9A2A0042ED00F0C6DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24C68B7B2A0042EC00F0C6DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24C68B862A0042EC00F0C6DB;
+			remoteInfo = "bolt-timer Watch App";
+		};
+		24C68BA42A0042ED00F0C6DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24C68B7B2A0042EC00F0C6DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24C68B862A0042EC00F0C6DB;
+			remoteInfo = "bolt-timer Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		24C68BB02A0042ED00F0C6DB /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				24C68B882A0042EC00F0C6DB /* bolt-timer Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		24C68B812A0042EC00F0C6DB /* bolt-timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bolt-timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24C68B872A0042EC00F0C6DB /* bolt-timer Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bolt-timer Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24C68B8C2A0042EC00F0C6DB /* bolt_timerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bolt_timerApp.swift; sourceTree = "<group>"; };
+		24C68B8E2A0042EC00F0C6DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		24C68B902A0042ED00F0C6DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24C68B932A0042ED00F0C6DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		24C68B992A0042ED00F0C6DB /* bolt-timer Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bolt-timer Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24C68B9D2A0042ED00F0C6DB /* bolt_timer_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bolt_timer_Watch_AppTests.swift; sourceTree = "<group>"; };
+		24C68BA32A0042ED00F0C6DB /* bolt-timer Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bolt-timer Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24C68BA72A0042ED00F0C6DB /* bolt_timer_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bolt_timer_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		24C68BA92A0042ED00F0C6DB /* bolt_timer_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bolt_timer_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		24C68BBA2A00434700F0C6DB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		24C68BBC2A00461F00F0C6DB /* RunningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunningView.swift; sourceTree = "<group>"; };
+		24C68BBE2A0046BB00F0C6DB /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		24C68BC02A004A9900F0C6DB /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		24C68BC22A004B3800F0C6DB /* EndedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndedView.swift; sourceTree = "<group>"; };
+		24C68BC42A00623300F0C6DB /* RideResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideResult.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24C68B842A0042EC00F0C6DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24C68B962A0042ED00F0C6DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24C68BA02A0042ED00F0C6DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24C68B7A2A0042EC00F0C6DB = {
+			isa = PBXGroup;
+			children = (
+				24C68B8B2A0042EC00F0C6DB /* bolt-timer Watch App */,
+				24C68B9C2A0042ED00F0C6DB /* bolt-timer Watch AppTests */,
+				24C68BA62A0042ED00F0C6DB /* bolt-timer Watch AppUITests */,
+				24C68B822A0042EC00F0C6DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24C68B822A0042EC00F0C6DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24C68B812A0042EC00F0C6DB /* bolt-timer.app */,
+				24C68B872A0042EC00F0C6DB /* bolt-timer Watch App.app */,
+				24C68B992A0042ED00F0C6DB /* bolt-timer Watch AppTests.xctest */,
+				24C68BA32A0042ED00F0C6DB /* bolt-timer Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24C68B8B2A0042EC00F0C6DB /* bolt-timer Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				24C68B8C2A0042EC00F0C6DB /* bolt_timerApp.swift */,
+				24C68B8E2A0042EC00F0C6DB /* ContentView.swift */,
+				24C68BC42A00623300F0C6DB /* RideResult.swift */,
+				24C68BC22A004B3800F0C6DB /* EndedView.swift */,
+				24C68BBC2A00461F00F0C6DB /* RunningView.swift */,
+				24C68BBA2A00434700F0C6DB /* HomeView.swift */,
+				24C68BBE2A0046BB00F0C6DB /* RoundButton.swift */,
+				24C68B902A0042ED00F0C6DB /* Assets.xcassets */,
+				24C68B922A0042ED00F0C6DB /* Preview Content */,
+				24C68BC02A004A9900F0C6DB /* AppState.swift */,
+			);
+			path = "bolt-timer Watch App";
+			sourceTree = "<group>";
+		};
+		24C68B922A0042ED00F0C6DB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				24C68B932A0042ED00F0C6DB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		24C68B9C2A0042ED00F0C6DB /* bolt-timer Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				24C68B9D2A0042ED00F0C6DB /* bolt_timer_Watch_AppTests.swift */,
+			);
+			path = "bolt-timer Watch AppTests";
+			sourceTree = "<group>";
+		};
+		24C68BA62A0042ED00F0C6DB /* bolt-timer Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				24C68BA72A0042ED00F0C6DB /* bolt_timer_Watch_AppUITests.swift */,
+				24C68BA92A0042ED00F0C6DB /* bolt_timer_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "bolt-timer Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24C68B802A0042EC00F0C6DB /* bolt-timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24C68BB12A0042ED00F0C6DB /* Build configuration list for PBXNativeTarget "bolt-timer" */;
+			buildPhases = (
+				24C68B7F2A0042EC00F0C6DB /* Resources */,
+				24C68BB02A0042ED00F0C6DB /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24C68B8A2A0042EC00F0C6DB /* PBXTargetDependency */,
+			);
+			name = "bolt-timer";
+			productName = "bolt-timer";
+			productReference = 24C68B812A0042EC00F0C6DB /* bolt-timer.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		24C68B862A0042EC00F0C6DB /* bolt-timer Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24C68BAD2A0042ED00F0C6DB /* Build configuration list for PBXNativeTarget "bolt-timer Watch App" */;
+			buildPhases = (
+				24C68B832A0042EC00F0C6DB /* Sources */,
+				24C68B842A0042EC00F0C6DB /* Frameworks */,
+				24C68B852A0042EC00F0C6DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bolt-timer Watch App";
+			productName = "bolt-timer Watch App";
+			productReference = 24C68B872A0042EC00F0C6DB /* bolt-timer Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24C68B982A0042ED00F0C6DB /* bolt-timer Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24C68BB42A0042ED00F0C6DB /* Build configuration list for PBXNativeTarget "bolt-timer Watch AppTests" */;
+			buildPhases = (
+				24C68B952A0042ED00F0C6DB /* Sources */,
+				24C68B962A0042ED00F0C6DB /* Frameworks */,
+				24C68B972A0042ED00F0C6DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24C68B9B2A0042ED00F0C6DB /* PBXTargetDependency */,
+			);
+			name = "bolt-timer Watch AppTests";
+			productName = "bolt-timer Watch AppTests";
+			productReference = 24C68B992A0042ED00F0C6DB /* bolt-timer Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		24C68BA22A0042ED00F0C6DB /* bolt-timer Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24C68BB72A0042ED00F0C6DB /* Build configuration list for PBXNativeTarget "bolt-timer Watch AppUITests" */;
+			buildPhases = (
+				24C68B9F2A0042ED00F0C6DB /* Sources */,
+				24C68BA02A0042ED00F0C6DB /* Frameworks */,
+				24C68BA12A0042ED00F0C6DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24C68BA52A0042ED00F0C6DB /* PBXTargetDependency */,
+			);
+			name = "bolt-timer Watch AppUITests";
+			productName = "bolt-timer Watch AppUITests";
+			productReference = 24C68BA32A0042ED00F0C6DB /* bolt-timer Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24C68B7B2A0042EC00F0C6DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					24C68B802A0042EC00F0C6DB = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					24C68B862A0042EC00F0C6DB = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					24C68B982A0042ED00F0C6DB = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 24C68B862A0042EC00F0C6DB;
+					};
+					24C68BA22A0042ED00F0C6DB = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 24C68B862A0042EC00F0C6DB;
+					};
+				};
+			};
+			buildConfigurationList = 24C68B7E2A0042EC00F0C6DB /* Build configuration list for PBXProject "bolt-timer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24C68B7A2A0042EC00F0C6DB;
+			productRefGroup = 24C68B822A0042EC00F0C6DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24C68B802A0042EC00F0C6DB /* bolt-timer */,
+				24C68B862A0042EC00F0C6DB /* bolt-timer Watch App */,
+				24C68B982A0042ED00F0C6DB /* bolt-timer Watch AppTests */,
+				24C68BA22A0042ED00F0C6DB /* bolt-timer Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24C68B7F2A0042EC00F0C6DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24C68B852A0042EC00F0C6DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C68B942A0042ED00F0C6DB /* Preview Assets.xcassets in Resources */,
+				24C68B912A0042ED00F0C6DB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24C68B972A0042ED00F0C6DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24C68BA12A0042ED00F0C6DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24C68B832A0042EC00F0C6DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C68BC32A004B3800F0C6DB /* EndedView.swift in Sources */,
+				24C68BBD2A00461F00F0C6DB /* RunningView.swift in Sources */,
+				24C68BC12A004A9900F0C6DB /* AppState.swift in Sources */,
+				24C68BBF2A0046BB00F0C6DB /* RoundButton.swift in Sources */,
+				24C68BBB2A00434700F0C6DB /* HomeView.swift in Sources */,
+				24C68B8F2A0042EC00F0C6DB /* ContentView.swift in Sources */,
+				24C68BC52A00623300F0C6DB /* RideResult.swift in Sources */,
+				24C68B8D2A0042EC00F0C6DB /* bolt_timerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24C68B952A0042ED00F0C6DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C68B9E2A0042ED00F0C6DB /* bolt_timer_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24C68B9F2A0042ED00F0C6DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C68BA82A0042ED00F0C6DB /* bolt_timer_Watch_AppUITests.swift in Sources */,
+				24C68BAA2A0042ED00F0C6DB /* bolt_timer_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24C68B8A2A0042EC00F0C6DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24C68B862A0042EC00F0C6DB /* bolt-timer Watch App */;
+			targetProxy = 24C68B892A0042EC00F0C6DB /* PBXContainerItemProxy */;
+		};
+		24C68B9B2A0042ED00F0C6DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24C68B862A0042EC00F0C6DB /* bolt-timer Watch App */;
+			targetProxy = 24C68B9A2A0042ED00F0C6DB /* PBXContainerItemProxy */;
+		};
+		24C68BA52A0042ED00F0C6DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24C68B862A0042EC00F0C6DB /* bolt-timer Watch App */;
+			targetProxy = 24C68BA42A0042ED00F0C6DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		24C68BAB2A0042ED00F0C6DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		24C68BAC2A0042ED00F0C6DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		24C68BAE2A0042ED00F0C6DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"bolt-timer Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = S5RZQXD959;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "bolt-timer";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.kerdo.bolt-timer.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		24C68BAF2A0042ED00F0C6DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"bolt-timer Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = S5RZQXD959;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "bolt-timer";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.kerdo.bolt-timer.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		24C68BB22A0042ED00F0C6DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S5RZQXD959;
+				INFOPLIST_KEY_CFBundleDisplayName = "bolt-timer";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.kerdo.bolt-timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		24C68BB32A0042ED00F0C6DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S5RZQXD959;
+				INFOPLIST_KEY_CFBundleDisplayName = "bolt-timer";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.kerdo.bolt-timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24C68BB52A0042ED00F0C6DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S5RZQXD959;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.kerdo.bolt-timer-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bolt-timer Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/bolt-timer Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		24C68BB62A0042ED00F0C6DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S5RZQXD959;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.kerdo.bolt-timer-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bolt-timer Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/bolt-timer Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		24C68BB82A0042ED00F0C6DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S5RZQXD959;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.kerdo.bolt-timer-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "bolt-timer Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		24C68BB92A0042ED00F0C6DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S5RZQXD959;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.kerdo.bolt-timer-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "bolt-timer Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24C68B7E2A0042EC00F0C6DB /* Build configuration list for PBXProject "bolt-timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24C68BAB2A0042ED00F0C6DB /* Debug */,
+				24C68BAC2A0042ED00F0C6DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24C68BAD2A0042ED00F0C6DB /* Build configuration list for PBXNativeTarget "bolt-timer Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24C68BAE2A0042ED00F0C6DB /* Debug */,
+				24C68BAF2A0042ED00F0C6DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24C68BB12A0042ED00F0C6DB /* Build configuration list for PBXNativeTarget "bolt-timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24C68BB22A0042ED00F0C6DB /* Debug */,
+				24C68BB32A0042ED00F0C6DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24C68BB42A0042ED00F0C6DB /* Build configuration list for PBXNativeTarget "bolt-timer Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24C68BB52A0042ED00F0C6DB /* Debug */,
+				24C68BB62A0042ED00F0C6DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24C68BB72A0042ED00F0C6DB /* Build configuration list for PBXNativeTarget "bolt-timer Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24C68BB82A0042ED00F0C6DB /* Debug */,
+				24C68BB92A0042ED00F0C6DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24C68B7B2A0042EC00F0C6DB /* Project object */;
+}
